@@ -20,23 +20,23 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="../index.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Chi Siamo</a>
+            <a class="nav-link" href="../Local/ChiSiamo/index.php">Chi Siamo</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Cryptovalute
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="../Crypto/Binance Coin.html">Binance Coin</a></li>
-              <li><a class="dropdown-item" href="../Crypto/Bitcoin.html">Bitcoin</a></li>
-              <li><a class="dropdown-item" href="../Crypto/Cardano.html">Cardano</a></li>
-              <li><a class="dropdown-item" href="../Crypto/Ethereum.html">Ethereum</a></li>
-              <li><a class="dropdown-item" href="../Crypto/Ripple.html">Ripple</a></li>
-              <li><a class="dropdown-item" href="../Crypto/Tether.html">Tether</a></li>
-              <li><a class="dropdown-item" href="../Crypto/USD Coin.html">USD Coin</a></li>
+              <li><a class="dropdown-item" href="Binance Coin.php">Binance Coin</a></li>
+              <li><a class="dropdown-item" href="Bitcoin.php">Bitcoin</a></li>
+              <li><a class="dropdown-item" href="Cardano.php">Cardano</a></li>
+              <li><a class="dropdown-item" href="Ethereum.php">Ethereum</a></li>
+              <li><a class="dropdown-item" href="Ripple.php">Ripple</a></li>
+              <li><a class="dropdown-item" href="Tether.php">Tether</a></li>
+              <li><a class="dropdown-item" href="#">USD Coin</a></li>
             </ul>
           </li>
         </ul>
@@ -52,13 +52,6 @@
             else {
               echo "<li><a id='giudizio' class='nav-link' href='../Local/Feedback/index.php'>Give your feedback!</a></li>";
               echo "<li class='account'><a class='nav-link' href='../User/Logout/index.php'>Log out</a></li>";
-            }
-            ?>
-
-            <?php
-            if(isset($_SESSION['name'])){
-              $name=$_SESSION['name'];
-              echo "WELCOME $name";
             }
             ?>
           </li>

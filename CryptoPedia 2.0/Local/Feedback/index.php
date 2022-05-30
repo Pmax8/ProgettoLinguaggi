@@ -10,26 +10,56 @@
 
 <body>
     <span id="top"></span>
-	<!-- NAVBAR -->
-	<nav class="navbar">
-		<a class="logo" href="../index.php"><img src="../images/rocket.png" alt="logo"></a>
-        <ul class="menu">
-            <li><a href="../index.php">Home</a></li>
-            <li><a href="javascript:redirection('pianeti')">Crypto</a></li> <!-- ../index.html#pianeti non funziona in Safari-->
-            <li><a id="chiSiamo" href="../chisiamo/index.php">About us</a></li>
-			<li><a href="../infopianeti/index.php">Info Crypto</a></li>
-			<li><a id="giudizio" class="current" href="#">Give your feedback!</a></li>
-			<li class='account'><a  href='../logout/index.php'>Log out</a></li>
-		</ul>
-		<?php
-			session_start();
-			if(isset($_SESSION['name'])){
-				$name=$_SESSION['name'];
-				echo "WELCOME $name";
-			}
-			?>
-    </nav>
-	<!-- NAVBAR ENDS -->
+	<!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Cryptopedia</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../../index.php">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../ChiSiamo/index.php">Chi Siamo</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Cryptovalute
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="../../Crypto/Binance Coin.php">Binance Coin</a></li>
+                  <li><a class="dropdown-item" href="../../Crypto/Bitcoin.php">Bitcoin</a></li>
+                  <li><a class="dropdown-item" href="../../Crypto/Cardano.php">Cardano</a></li>
+                  <li><a class="dropdown-item" href="../../Crypto/Ethereum.php">Ethereum</a></li>
+                  <li><a class="dropdown-item" href="../../Crypto/Ripple.php">Ripple</a></li>
+                  <li><a class="dropdown-item" href="../../Crypto/Tether.php">Tether</a></li>
+                  <li><a class="dropdown-item" href="../../Crypto/USD Coin.php">USD Coin</a></li>
+                </ul>
+              </li>
+			</ul>
+			<ul class="navbar-nav justify-content-end">
+				<li class="nav-item">
+			  		<?php
+			  		session_start();
+			  		if(!isset($_SESSION['name'])){
+			   			echo "<li class='account'><a  class='nav-link' href='../../User/SignUp/index.php'> Sign Up </a></li>
+						<li></li>
+						<li class='account'><a class='nav-link' href='../../User/Login/index.php'> Log In </a></li>";
+			  			}
+			  		else {
+					 	echo "<li><a id='giudizio' class='nav-link' href='../../Local/Feedback/index.php'>Give your feedback!</a></li>";
+						echo "<li class='account'><a class='nav-link' href='../../User/Logout/index.php'>Log out</a></li>";
+			 		}
+			  		?>
+				</li>
+		    </ul>
+          </div>
+        </div>
+      </nav>
+  <!--NAVBAR-END-->
 
 	<!-- FORM -->
 	<div class="login-dark">

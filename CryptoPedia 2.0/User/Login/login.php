@@ -1,4 +1,13 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="author" content="Matteo Gargaro and Massimiliano Picone">
+  <meta charset='utf-8'>
+  <title>Cryptopedia</title>
+  <link rel="stylesheet" href="../../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
         <?php
             $dbconn=pg_connect("host=localhost port=5432 dbname=login user=postgres password=biar")
                         or die("Could not connect: " . pg_last_error()); 
@@ -27,7 +36,7 @@
                             exit;
                         }
                         else {
-                            echo "<h1> You're logged in! </h1>
+				          echo "<h1> Welcome back, You're logged in! </h1>
                                     <a href=../../index.php> Click here</a> 
                                     to go to Home!"; 
                         
@@ -40,3 +49,7 @@
                     }
                 }
         ?> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+</body>
+</html>

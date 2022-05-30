@@ -28,13 +28,13 @@
                   Cryptovalute
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="../../Crypto/Binance Coin.html">Binance Coin</a></li>
-                  <li><a class="dropdown-item" href="../../Crypto/Bitcoin.html">Bitcoin</a></li>
-                  <li><a class="dropdown-item" href="../../Crypto/Cardano.html">Cardano</a></li>
-                  <li><a class="dropdown-item" href="../../Crypto/Ethereum.html">Ethereum</a></li>
-                  <li><a class="dropdown-item" href="../../Crypto/Ripple.html">Ripple</a></li>
-                  <li><a class="dropdown-item" href="../../Crypto/Tether.html">Tether</a></li>
-                  <li><a class="dropdown-item" href="../../Crypto/USD Coin.html">USD Coin</a></li>
+                  <li><a class="dropdown-item" href="../../Crypto/Binance Coin.php">Binance Coin</a></li>
+                  <li><a class="dropdown-item" href="../../Crypto/Bitcoin.php">Bitcoin</a></li>
+                  <li><a class="dropdown-item" href="../../Crypto/Cardano.php">Cardano</a></li>
+                  <li><a class="dropdown-item" href="../../Crypto/Ethereum.php">Ethereum</a></li>
+                  <li><a class="dropdown-item" href="../../Crypto/Ripple.php">Ripple</a></li>
+                  <li><a class="dropdown-item" href="../../Crypto/Tether.php">Tether</a></li>
+                  <li><a class="dropdown-item" href="../../Crypto/USD Coin.php">USD Coin</a></li>
                 </ul>
               </li>
             </ul>
@@ -52,19 +52,16 @@
               echo "<li class='account'><a class='nav-link' href='../../User/Logout/index.php'>Log out</a></li>";
             }
             ?>
-
-            <?php
-            if(isset($_SESSION['name'])){
-              $name=$_SESSION['name'];
-              echo "WELCOME $name";
-            }
-            ?>
           </li>
         </ul>
           </div>
         </div>
       </nav>
   <!--NAVBAR-END-->
+
+  <!-- -->
+  <div class="container-md" id="main-div" style="background-colour:black; padding-top:3%;">
+  <!-- -->
 
 	<!-- FORM -->
 	<div class="login-dark">
@@ -85,17 +82,10 @@
 		</form>
     </div>
 	<!-- FORM ENDS -->
-
- <!--FOOTER-->
- <footer class="footer">
-		<div class="container">
-		  <p class="float-left" style="color: white;">&copy; 2022 CryptoPedia | Web Languages and Technologies' project, by M. Gargaro and M. Picone</p>
-		</div>
-	</footer>
-	<!--FOOTER-ENDS-->
-
+          </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/cryptopedia.js"></script>
 </div>
 </body>
 </html>

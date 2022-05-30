@@ -3,7 +3,7 @@
 <head>
   <meta name="author" content="Matteo Gargaro and Massimiliano Picone">
   <meta charset='utf-8'>
-  <title>Cryptopedia</title>
+  <title>Cryptopedia - Chi Siamo</title>
   <link rel="stylesheet" href="../../css/bootstrap.min.css">
   <link rel="stylesheet" href="../../style.css">
 </head>
@@ -29,13 +29,13 @@
                   Cryptovalute
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="Crypto/Binance Coin.html">Binance Coin</a></li>
-                  <li><a class="dropdown-item" href="Crypto/Bitcoin.html">Bitcoin</a></li>
-                  <li><a class="dropdown-item" href="Crypto/Cardano.html">Cardano</a></li>
-                  <li><a class="dropdown-item" href="Crypto/Ethereum.html">Ethereum</a></li>
-                  <li><a class="dropdown-item" href="Crypto/Ripple.html">Ripple</a></li>
-                  <li><a class="dropdown-item" href="Crypto/Tether.html">Tether</a></li>
-                  <li><a class="dropdown-item" href="Crypto/USD Coin.html">USD Coin</a></li>
+                  <li><a class="dropdown-item" href="../../Crypto/Binance Coin.php">Binance Coin</a></li>
+                  <li><a class="dropdown-item" href="../../Crypto/Bitcoin.php">Bitcoin</a></li>
+                  <li><a class="dropdown-item" href="../../Crypto/Cardano.php">Cardano</a></li>
+                  <li><a class="dropdown-item" href="../../Crypto/Ethereum.php">Ethereum</a></li>
+                  <li><a class="dropdown-item" href="../../Crypto/Ripple.php">Ripple</a></li>
+                  <li><a class="dropdown-item" href="../../Crypto/Tether.php">Tether</a></li>
+                  <li><a class="dropdown-item" href="../../Crypto/USD Coin.php">USD Coin</a></li>
                 </ul>
               </li>
 			</ul>

@@ -30,13 +30,13 @@
                   Cryptovalute
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="Crypto/Binance Coin.html">Binance Coin</a></li>
-                  <li><a class="dropdown-item" href="Crypto/Bitcoin.html">Bitcoin</a></li>
-                  <li><a class="dropdown-item" href="Crypto/Cardano.html">Cardano</a></li>
-                  <li><a class="dropdown-item" href="Crypto/Ethereum.html">Ethereum</a></li>
-                  <li><a class="dropdown-item" href="Crypto/Ripple.html">Ripple</a></li>
-                  <li><a class="dropdown-item" href="Crypto/Tether.html">Tether</a></li>
-                  <li><a class="dropdown-item" href="Crypto/USD Coin.html">USD Coin</a></li>
+                <li><a class="dropdown-item" href="Crypto/Binance Coin.php">Binance Coin</a></li>
+                <li><a class="dropdown-item" href="Crypto/Bitcoin.php">Bitcoin</a></li>
+                <li><a class="dropdown-item" href="Crypto/Cardano.php">Cardano</a></li>
+                <li><a class="dropdown-item" href="Crypto/Ethereum.php">Ethereum</a></li>
+                <li><a class="dropdown-item" href="Crypto/Ripple.php">Ripple</a></li>
+                <li><a class="dropdown-item" href="Crypto/Tether.php">Tether</a></li>
+                <li><a class="dropdown-item" href="Crypto/USD Coin.php">USD Coin</a></li>
                 </ul>
               </li>
             </ul>
@@ -45,20 +45,12 @@
                 <?php
 			          session_start();
 			          if(!isset($_SESSION['name'])){
-			       	    echo "<li class='account'><a  class='nav-link' href='User/SignUp/index.php'> Sign Up </a></li>
-                  <li></li>
-				       	  <li class='account'><a class='nav-link' href='User/Login/index.php'> Log In </a></li>";
+			       	    echo "<li class='account'><a  class='nav-link' href='User/SignUp/index.php'> Sign Up </a></li>";
+				       	  echo "<li class='account'><a class='nav-link' href='User/Login/index.php'> Log In </a></li>";
 		    	      }
 		    	      else {
 			       	    echo "<li><a id='giudizio' class='nav-link' href='Local/Feedback/index.php'>Give your feedback!</a></li>";
 				          echo "<li class='account'><a class='nav-link' href='User/Logout/index.php'>Log out</a></li>";
-			          }
-			          ?>
-
-			          <?php
-			          if(isset($_SESSION['name'])){
-				          $name=$_SESSION['name'];
-				          echo "WELCOME $name";
 			          }
 			          ?>
               </li>
@@ -76,7 +68,38 @@
 
 <div class="container-md" id="main-div" style="background-color:black">
  
- 
+ <!--GRID-->
+ <div class="row" style="padding-top: 100px" >
+    <div class="col-lg-4 col-md-6">
+      <h1>TESTO</h1>
+      <P>
+        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
+        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
+        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
+        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
+      </P>
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <h1>TESTO</h1>
+      <P>
+        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
+        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
+        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
+        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
+      </P>
+  </div>
+    <div class="col-lg-4 col-md-12">
+      <h1>TESTO</h1>
+      <P>
+        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
+        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
+        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
+        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
+      </P>
+    </div>
+  </div>
+  <!--GRID-END-->
+
   <!--CAROSELLO-->
 <div class="container" id="Cardiv">
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -125,37 +148,6 @@
   <!--CAROSELLO-END-->
 
   
-  <!--GRID-->
-  <div class="row" style="padding-top: 100px" >
-    <div class="col-lg-4 col-md-6">
-      <h1>TESTO</h1>
-      <P>
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-      </P>
-    </div>
-    <div class="col-lg-4 col-md-6">
-      <h1>TESTO</h1>
-      <P>
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-      </P>
-  </div>
-    <div class="col-lg-4 col-md-12">
-      <h1>TESTO</h1>
-      <P>
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-      </P>
-    </div>
-  </div>
-  <!--GRID-END-->
   
   <!--FOOTER-->
 	<footer class="footer">

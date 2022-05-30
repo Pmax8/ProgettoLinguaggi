@@ -8,18 +8,18 @@
     </head>
     <body> 
         <?php
-            $dbconn=pg_connect("host=localhost port=5432 dbname=feedback user=postgres password=password")
+            $dbconn=pg_connect("host=localhost port=5432 dbname=ratings user=postgres password=biar")
                         or die("Could not connect: " . pg_last_error()); 
             if (!empty($_POST["loginButton"])){
                 echo "error";
             }
             else {
-                $result = pg_query("select round(avg(fb), 2) as avg from feedback");
+                $result = pg_query("select round(avg(fb), 2) as avg from ratings");
                 $row = pg_fetch_assoc($result);
                 $average = $row['avg'];
                 echo $average . " / 5";
                 $su100 = $average*100/5;
-                $count = pg_query("select count(fb) as cnt from feedback");
+                $count = pg_query("select count(fb) as cnt from ratings");
                 $row2 = pg_fetch_assoc($count);
                 $n = $row2['cnt'];
             }
