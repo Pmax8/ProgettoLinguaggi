@@ -93,6 +93,14 @@
     </div>
 	<!-- FORM ENDS -->
 
+	<!--FOOTER-->
+	<footer class="footer">
+		<div class="container">
+		  <p class="float-left" style="color: white;">&copy; 2022 CryptoPedia | Web Languages and Technologies' project, by M. Gargaro and M. Picone</p>
+		</div>
+	</footer>
+	<!--FOOTER-ENDS-->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
 

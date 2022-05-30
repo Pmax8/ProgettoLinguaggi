@@ -65,7 +65,7 @@
 
 	<!-- FORM -->
 	<div class="login-dark">
-        <form action="login.php" method="POST" name="login" onSubmit="return validaForm();">
+        <form action="login.php" method="POST" name="login" onSubmit="return validaLogin();">
             <div class="illustration"><span class="icon ion-ios-locked-outline"></span></div>
             <div class="form-group">
 				<input class="form-control" type="email" id="email" name="email" placeholder="Email" autofocus>

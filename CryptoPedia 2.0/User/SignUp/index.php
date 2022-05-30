@@ -69,7 +69,7 @@
   <div class="container-md" id="main-div" style="background-colour:black; padding-top:3%;">
 <!-- FORM -->
 <div class="login-dark">
-        <form action="registration.php" method="POST" name="signup" onSubmit="return validaForm();">
+        <form action="registration.php" method="POST" name="signup" onSubmit="return validaSignUp();">
             <h6>Sign up to stay updated!</h6><br>
 			<div class="form-group">
 				<input class="col" type="text" name="name" maxlength="20" placeholder="First Name *" autofocus onChange="return controllaNome();">
@@ -90,6 +90,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/cryptopedia.js"></script>
 </div>
 </div>
 </body>
