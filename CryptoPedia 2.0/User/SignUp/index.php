@@ -64,9 +64,9 @@
 
   <div class="container-fluid">
     <h1 id="HomeTitle" style="text-align: center;">CryptoPedia</h1>
-    <h2 style="text-align: center;">Know Your Crypto's</h2>
+    <h2 id="subtitle" style="text-align: center; padding-bottom:10px;">Know Your Cryptos</h2>
   </div>
-  <div class="container-md" id="main-div" style="background-colour:black; padding-top:3%;">
+<div class="container-md" id="sec-div" style="padding-top:6px;">
 <!-- FORM -->
 <div class="login-dark">
         <form action="registration.php" method="POST" name="signup" onSubmit="return validaSignUp();">
@@ -86,8 +86,6 @@
 		</form>
     </div>
 	<!-- FORM ENDS -->
-<div class="container-md" id="main-div" style="background-color:black">
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
     <script src="../../js/cryptopedia.js"></script>

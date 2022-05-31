@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="../../style.css">
 </head>
 <body>
+    <div class="container-md" id="sec-div">
         <?php
             $dbconn=pg_connect("host=localhost port=5432 dbname=login user=postgres password=biar")
                         or die("Could not connect: " . pg_last_error()); 
@@ -16,7 +17,7 @@
                 $q1="select * from login where email= $1";
                 $result=pg_query_params($dbconn, $q1, array($email));
                 if (!($line=pg_fetch_array($result, null, PGSQL_ASSOC))){
-                    echo "<h1>Sorry, you are not a registered user</h1> 
+                    echo "<h1 style="text-align:center;">Sorry, you are not a registered user</h1> 
                             <a href=../signup/index.php>
                             Click here to register </a>";
                 } 
@@ -25,7 +26,7 @@
                     $q2="select * from login where email=$1 and password=$2"; 
                     $result=pg_query_params($dbconn, $q2, array($email, $password)); 
                     if (!($line=pg_fetch_array($result, null, PGSQL_ASSOC))){
-                        echo "<h1> The password is wrong </h1> 
+                        echo "<h1 style="text-align:center;"> The password is wrong </h1> 
                                 <a href=index.php> Click here to retry login </a>" ;
                     } 
                     else {
@@ -36,7 +37,7 @@
                             exit;
                         }
                         else {
-				          echo "<h1> Welcome back, You're logged in! </h1>
+				          echo "<h1 style="text-align:center;"> Welcome back, You're logged in! </h1>
                                     <a href=../../index.php> Click here</a> 
                                     to go to Home!"; 
                         
@@ -48,7 +49,8 @@
 
                     }
                 }
-        ?> 
+        ?>
+    </div> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
 </body>

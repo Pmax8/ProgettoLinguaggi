@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="../../style.css">
 </head>
     <body> 
+    <div class="container" id="sec-div">
         <?php
             $dbconn=pg_connect("host=localhost port=5432 dbname=login user=postgres password=biar") or 
                         die("Could not connect: " . pg_last_error()); 
@@ -37,6 +38,7 @@
                     }
                 }
         ?>
+    </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="../../js/bootstrap.min.js"></script>
 

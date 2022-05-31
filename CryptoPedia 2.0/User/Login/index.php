@@ -60,7 +60,7 @@
   <!--NAVBAR-END-->
 
   <!-- -->
-  <div class="container-md" id="main-div" style="background-colour:black; padding-top:3%;">
+  <div class="container-md" id="sec-div" style="padding-top:3%;">
   <!-- -->
 
 	<!-- FORM -->
@@ -71,13 +71,15 @@
 				<input class="form-control" type="email" id="email" name="email" placeholder="Email" autofocus>
             	<input class="form-control" type="password" id="pass" name="password" maxlength="10" placeholder="Password">
 				<label class="cont">
+          <div class="container" style="color:white; padding-left:0px;">
 					<input type="checkbox" onclick="passVisibility()">Show password
 					<span class="checkmark"></span>
+          </div>
 				</label>
 				<br>
 				<button class="btn-primary" type="submit" id="loginButton" name="loginButton"><h6>Log In</h6></button>
 				<button class="btn-primary" type="reset"><h6>Reset</h6></button><br><br>
-				<h6>Don’t have an account? <a href="../signup/index.php">Register</a></h6>
+				<h6 style="text-align:center;">Don’t have an account? <a href="../signup/index.php">Register</a></h6>
 			</div>
 		</form>
     </div>
