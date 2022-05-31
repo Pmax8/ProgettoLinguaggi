@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="../css/bootstrap.min.css">
   <link rel="stylesheet" href="../style.css">
 </head>
-<body>
+<body style="padding-top:10px;">
 
 
   <!--NAVBAR-->
@@ -61,23 +61,25 @@
   </nav>
 <!--NAVBAR-END-->
 
-<div class="container">
+<div class="container" id="cryptoLogo">
   <img src="Im/BitcoinLogo.png" id="pageimg">
 </div>
 <div class="container-md" id="main-div">
 
+  <div class="col-md-12" align="center">
+    <h1 id="cryptotitle">Bitcoin</h1>
+  </div>
+  <hr class="featurette-divider">
   <!--GRID-->
   <div class="row">
-    <div class="col-md-12" align="center">
-      <h1 id="cryptotitle">Bitcoin</h1>
-    </div>
     
     
-    <hr class="featurette-divider">
+    
+    
     
     
     <div class="row featurette">
-      <div class="col-md-7" data-sr="enter left over 1s, wait 0.3s, move 24px, reset">
+      <div class="col-md-7">
         <h2 id="info-title" class="featurette-heading">Che Cos'è?</h2>
           <p id="info" class="lead">Il Bitcoin è una moneta virtuale creata nel 2009 creata da uno o più hacker
              con lo pseudonimo Satoshi Nakamoto, che sviluppò un'idea da lui stesso presentata su Internet a fine 2008.</p>
@@ -106,6 +108,7 @@
 
   <hr class="featurette-divider">
 
+  <div class="row">
   <div class="col-lg-4 col-md-6">
     <h1 id="grid-title">Andamento Economico</h1>
     <P id="grid-info">
@@ -124,7 +127,10 @@
     </P>
   </div>
   <div class="col-lg-4 col-md-12">
+    <a href="https://coinmarketcap.com/it/currencies/bitcoin/" target="blank">
     <h2 id="grid-link">Controlla l'Andamento in Tempo Reale</h2>
+    </a>
+  </div>
   </div>
   </div>
   <!--GRID-END-->
