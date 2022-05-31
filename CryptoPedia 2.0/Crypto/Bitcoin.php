@@ -78,8 +78,9 @@
     
     <div class="row featurette">
       <div class="col-md-7" data-sr="enter left over 1s, wait 0.3s, move 24px, reset">
-        <h2 class="featurette-heading">Creatore</h2>
-          <p class="lead">testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo </p>
+        <h2 id="info-title" class="featurette-heading">Che Cos'è?</h2>
+          <p id="info" class="lead">Il Bitcoin è una moneta virtuale creata nel 2009 creata da uno o più hacker
+             con lo pseudonimo Satoshi Nakamoto, che sviluppò un'idea da lui stesso presentata su Internet a fine 2008.</p>
       </div>
       <div class="col-md-5">
         <img class="featurette-image img-fluid mx-auto" src="Im/Bitcoin.jpg" alt="Generic placeholder image">
@@ -92,8 +93,11 @@
     
   <div class="row featurette">
     <div class="col-md-7 order-md-2" data-sr="enter right over 1s, wait 0.3s, move 24px, reset" style="bottom: 40px;">
-      <h2>roba</h2>
-      <p class="lead">roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba"</p>
+      <h2 id="info-title">Come funziona?</h2>
+      <p id="info" class="lead">Diversamente dalle altre valute il Bitcoin non ha dietro una Banca centrale che distribuisce nuova
+        moneta ma si basa fondamentalmente su due principi: un network di nodi, cioè di pc, che la gestiscono in modalità
+        distribuita, peer-to-peer; e l'uso di una forte crittografia per validare e rendere sicure le transazioni. I Bitcoin
+        disponibili in rete sono 21 milioni mentre quelli effettivamente in circolazione sono circa 9 milioni."</p>
     </div>
     <div class="col-md-5 order-md-1">
       <img class="featurette-image img-fluid mx-auto" src="Im/BitcoinPredictions.jpg" alt="Generic placeholder image">
@@ -103,31 +107,24 @@
   <hr class="featurette-divider">
 
   <div class="col-lg-4 col-md-6">
-    <h1>TESTO</h1>
-    <P>
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
+    <h1 id="grid-title">Andamento Economico</h1>
+    <P id="grid-info">
+    Il valore del Bitcoin è passato da 0 (nel 2009), a 1200 (Novembre 2019) fino a 32000
+    dollari (Maggio 2022). Secondo il Financial
+    Times il volume del bitcoin arriva a sfiorare i 15.500.000.000 €.
     </P>
   </div>
   <div class="col-lg-4 col-md-6">
-    <h1>TESTO</h1>
-    <P>
-      testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-      testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-      testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-      testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
+    <h1 id="grid-title">Controversie</h1>
+    <P id="grid-info">
+    In uno studio accademico pubblicato nel 2018 su Nature è stato stimato che l'anidride carbonica
+     prodotta dal solo Bitcoin causerà un aumento della temperatura globale di oltre 2 gradi Celsius in meno di 3 decadi 
+     dato che, secondo diverse testate indipendenti, solo il 40% dell'energia consumata dalle cryptovalute proviene da fonti rinnovabili,
+      mentre il restante 60% proviene da combustibili fossili.  
     </P>
   </div>
   <div class="col-lg-4 col-md-12">
-    <h1>TESTO</h1>
-    <P>
-      testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-      testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-      testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-      testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-    </P>
+    <h2 id="grid-link">Controlla l'Andamento in Tempo Reale</h2>
   </div>
   </div>
   <!--GRID-END-->
