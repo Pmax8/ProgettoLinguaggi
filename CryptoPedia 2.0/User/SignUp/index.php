@@ -66,7 +66,7 @@
     <h1 id="HomeTitle" style="text-align: center;">CryptoPedia</h1>
     <h2 id="subtitle" style="text-align: center; padding-bottom:10px;">Know Your Cryptos</h2>
   </div>
-<div class="container-md" id="sec-div" style="padding-top:6px;">
+<div class="container-md" id="sec-div" style="padding-top:6px; padding-bottom: 100px;">
 <!-- FORM -->
 <div class="login-dark">
         <form action="registration.php" method="POST" name="signup" onSubmit="return validaSignUp();">
