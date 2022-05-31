@@ -46,6 +46,8 @@ p{
 
 #cryptotitle{
     font-size: 70px;
+    padding-top: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #main-div{
@@ -98,6 +100,41 @@ p{
     padding-right: 0px;
 }
 
+#info-title{
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.row{
+    padding: 20px;
+    margin: 0;
+}
+
+#grid-title{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#grid-info{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#grid-link{
+    margin: auto;
+    padding-top: 20%;
+    text-align: center;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#cryptoLogo{
+    max-width: 1000px;
+}
+
+#info{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 
 
