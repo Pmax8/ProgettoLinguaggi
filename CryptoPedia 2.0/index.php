@@ -11,7 +11,7 @@
 
 
   <!--NAVBAR-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Cryptopedia</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,14 +62,14 @@
 
   <div class="container-fluid">
     <h1 id="HomeTitle" style="text-align: center;">CryptoPedia</h1>
-    <h2 style="text-align: center;">Know Your Crypto's</h2>
+    <h2 id="subtitle" style="text-align: center;">Know Your Cryptos</h2>
   </div>
 
 
-<div class="container-md" id="main-div" style="background-color:black">
+<div class="container-md" id="main-div">
  
  <!--GRID-->
- <div class="row" style="padding-top: 100px" >
+ <div class="row" style="padding-left:2%;" >
     <div class="col-lg-4 col-md-6">
       <h1>TESTO</h1>
       <P>
@@ -101,7 +101,7 @@
   <!--GRID-END-->
 
   <!--CAROSELLO-->
-<div class="container" id="Cardiv">
+<div class="container-fluid" id="Cardiv">
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -114,25 +114,39 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
+            <a href="Crypto/Ethereum.php">
             <img src="local/bitkanchanara-7cmA9ZL5dDk-unsplash.jpg" class="d-block w-100" alt="">
+            </a>
           </div>
           <div class="carousel-item">
+            <a href="Crypto/Bitcoin.php">
             <img src="local/kanchanara-Lta5b8mPytw-unsplash.jpg" class="d-block w-100" alt="">
+            </a>
           </div>
           <div class="carousel-item">
+            <a href="Crypto/Binance Coin.php">
             <img src="local/binance-coin-001-scaled.jpg" class="d-block w-100" alt="">
+            </a>
           </div>
           <div class="carousel-item">
+            <a href="Crypto/Cardano.php">
             <img src="local/binance-coin-001-scaled.jpg" class="d-block w-100" alt="">
+            </a>
           </div>
           <div class="carousel-item">
+            <a href="Crypto/Ripple.php">
             <img src="local/binance-coin-001-scaled.jpg" class="d-block w-100" alt="">
+            </a>
           </div>
           <div class="carousel-item">
+            <a href="Crypto/Tether.php">
             <img src="local/binance-coin-001-scaled.jpg" class="d-block w-100" alt="">
+            </a>
           </div>
           <div class="carousel-item">
+            <a href="Crypto/USD Coin.php">
             <img src="local/binance-coin-001-scaled.jpg" class="d-block w-100" alt="">
+            </a>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -146,19 +160,18 @@
       </div>
 </div>
   <!--CAROSELLO-END-->
+</div>
 
-  
   
   <!--FOOTER-->
 	<footer class="footer">
 		<div class="container">
-		  <p class="float-left" style="color: white;">&copy; 2022 CryptoPedia | Web Languages and Technologies' project, by M. Gargaro and M. Picone</p>
+		  <p class="float-left" style="color: white; padding-left:20%;">&copy; 2022 CryptoPedia | Web Languages and Technologies' project, by M. Gargaro and M. Picone</p>
 		</div>
 	</footer>
 	<!--FOOTER-ENDS-->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-</div>
 </body>
 </html>
