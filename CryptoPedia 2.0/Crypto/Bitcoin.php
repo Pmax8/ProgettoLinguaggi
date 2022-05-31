@@ -62,7 +62,7 @@
 <!--NAVBAR-END-->
 
 <div class="container">
-  <img src="../Local/Bitcoin page.jpg" id="pageimg">
+  <img src="Im/BitcoinLogo.png" id="pageimg">
 </div>
 <div class="container-md" id="main-div">
 
@@ -82,7 +82,7 @@
           <p class="lead">testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo </p>
       </div>
       <div class="col-md-5">
-        <img class="featurette-image img-fluid mx-auto" src="#" alt="Generic placeholder image">
+        <img class="featurette-image img-fluid mx-auto" src="Im/Bitcoin.jpg" alt="Generic placeholder image">
       </div>
   </div>
     
@@ -96,7 +96,7 @@
       <p class="lead">roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba"</p>
     </div>
     <div class="col-md-5 order-md-1">
-      <img class="featurette-image img-fluid mx-auto" src="#" alt="Generic placeholder image">
+      <img class="featurette-image img-fluid mx-auto" src="Im/BitcoinPredictions.jpg" alt="Generic placeholder image">
     </div>
   </div>
 
@@ -131,7 +131,7 @@
   </div>
   </div>
   <!--GRID-END-->
-  
+  </div>
   <!--FOOTER-->
 	<footer class="footer">
 		<div class="container">
@@ -142,7 +142,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-</div>
+
 </body>
 </html>
 

@@ -62,14 +62,14 @@
 <!--NAVBAR-END-->
 
 <div class="container">
-  <img src="../Local/Bitcoin page.jpg" id="pageimg">
+  <img src="Im/USDCoinLogo.png" id="pageimg">
 </div>
 <div class="container-md" id="main-div">
 
   <!--GRID-->
   <div class="row">
     <div class="col-md-12" align="center">
-      <h1 id="cryptotitle">Bitcoin</h1>
+      <h1 id="cryptotitle">USD Coin</h1>
     </div>
     
     
@@ -82,7 +82,7 @@
           <p class="lead">testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo </p>
       </div>
       <div class="col-md-5">
-        <img class="featurette-image img-fluid mx-auto" src="#" alt="Generic placeholder image">
+        <img class="featurette-image img-fluid mx-auto" src="Im/USDC.jpg" alt="Generic placeholder image">
       </div>
   </div>
     
@@ -96,7 +96,7 @@
       <p class="lead">roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba"</p>
     </div>
     <div class="col-md-5 order-md-1">
-      <img class="featurette-image img-fluid mx-auto" src="#" alt="Generic placeholder image">
+      <img class="featurette-image img-fluid mx-auto" src="Im/USDCPredictions.png" alt="Generic placeholder image">
     </div>
   </div>
 
