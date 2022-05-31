@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="../../style.css">
 </head>
 
-<body>
+<body style="padding-top:10%;" >
     <span id="top"></span>
 	<!--NAVBAR-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -61,30 +61,35 @@
       </nav>
   <!--NAVBAR-END-->
 
+<div class="container-md" id="sec-div" style="border-top-left-radius: 0%; border-top-right-radius: 0%;">
+
 	<!-- FORM -->
 	<div class="login-dark">
         <span>
             <div class="illustration"><div class="icon ion-ios-paperplane-outline"></div></div>
             <div class="form-group">
-				Please give a feedback to us if you feel satisfied about our web site!
+				<h2 style="text-align:center;">Please give a feedback to us if you feel satisfied about our web site!</h2>
 				<br><br>
 					
-				<select class="form-control" name="rate" id="rate">
+				<select class="form-control" name="rate" id="rate" style="width:50%; margin-left: auto; margin-right: auto;">
 					<option value="1">⭐️</option>
 					<option value="2">⭐️⭐️</option>
 					<option value="3">⭐️⭐️⭐️</option>
 					<option value="4">⭐️⭐️⭐️⭐️</option>
 					<option value="5">⭐️⭐️⭐️⭐️⭐️</option>
 				</select>
-				
-				<button class="btn-primary" name="fbButton" id="fbButton" type="submit"><h6>Send</h6></button>
+				<div class="container" id="buttondiv">
+				<button class="btn-primary" name="fbButton" id="fbButton" type="submit" style="width:30%;"><h6>Send</h6></button>
+				</div>
 			</div>
 			<br>
 		</span>
 		<div id="zona_feed" style="position:fixed; top:50%; left:44%;"></div>
 
 		<div class="alt" name="userRating">
-			<button class="btn-primary" name="avg" class="din"><h6>Users Rating</h6></button><br><br>
+			<div class="container" id="buttondiv">
+			<button class="btn-primary" name="avg" class="din" style="width:30%;"><h6>Users Rating</h6></button>
+			</div>
 			<div class="row featurette">
 				<div id="zona_din"></div>
 			</div>
@@ -92,14 +97,7 @@
 
     </div>
 	<!-- FORM ENDS -->
-
-	<!--FOOTER-->
-	<footer class="footer">
-		<div class="container">
-		  <p class="float-left" style="color: white;">&copy; 2022 CryptoPedia | Web Languages and Technologies' project, by M. Gargaro and M. Picone</p>
-		</div>
-	</footer>
-	<!--FOOTER-ENDS-->
+</div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
