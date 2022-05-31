@@ -117,36 +117,57 @@
             <a href="Crypto/Ethereum.php">
             <img src="local/bitkanchanara-7cmA9ZL5dDk-unsplash.jpg" class="d-block w-100" alt="">
             </a>
+            <div class="carousel-caption d-none d-md-block vontainer-fluid" id="car-caption">
+              <h2>Ethereum</h2>
+            </div>
           </div>
           <div class="carousel-item">
             <a href="Crypto/Bitcoin.php">
             <img src="local/kanchanara-Lta5b8mPytw-unsplash.jpg" class="d-block w-100" alt="">
             </a>
+            <div class="carousel-caption d-none d-md-block" id="car-caption">
+              <h2>Bitcoin</h2>
+            </div>
           </div>
           <div class="carousel-item">
             <a href="Crypto/Binance Coin.php">
-            <img src="local/binance-coin-001-scaled.jpg" class="d-block w-100" alt="">
+            <img src="Crypto/Im/BinanceCar.png" class="d-block w-100" alt="">
             </a>
+            <div class="carousel-caption d-none d-md-block" id="car-caption">
+              <h2>Binance Coin</h2>
+            </div>
           </div>
           <div class="carousel-item">
             <a href="Crypto/Cardano.php">
-            <img src="local/binance-coin-001-scaled.jpg" class="d-block w-100" alt="">
+            <img src="Crypto/Im/CardanoCar.jpg" class="d-block w-100" alt="">
             </a>
+            <div class="carousel-caption d-none d-md-block" id="car-caption">
+              <h2>Cardano</h2>
+            </div>
           </div>
           <div class="carousel-item">
             <a href="Crypto/Ripple.php">
-            <img src="local/binance-coin-001-scaled.jpg" class="d-block w-100" alt="">
+            <img src="Crypto/Im/RippleCar.jpg" class="d-block w-100" alt="">
             </a>
+            <div class="carousel-caption d-none d-md-block" id="car-caption">
+              <h2>Ripple</h2>
+            </div>
           </div>
           <div class="carousel-item">
             <a href="Crypto/Tether.php">
-            <img src="local/binance-coin-001-scaled.jpg" class="d-block w-100" alt="">
+            <img src="Crypto/Im/tethercar.jpg" class="d-block w-100" alt="">
             </a>
+            <div class="carousel-caption d-none d-md-block" id="car-caption">
+              <h2>Tether</h2>
+            </div>
           </div>
           <div class="carousel-item">
             <a href="Crypto/USD Coin.php">
-            <img src="local/binance-coin-001-scaled.jpg" class="d-block w-100" alt="">
+            <img src="Crypto/Im/usdcoincar.png" class="d-block w-100" alt="">
             </a>
+            <div class="carousel-caption d-none d-md-block" id="car-caption">
+              <h2>USD Coin</h2>
+            </div>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
