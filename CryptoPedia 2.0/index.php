@@ -71,17 +71,15 @@
  <!--GRID-->
  <div class="row" style="padding-left:2%;" >
     <div class="col-lg-4 col-md-6">
-      <h1>TESTO</h1>
-      <P>
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
+      <h1 id="grid-title">Che Cos'è CryptoPedia?</h1>
+      <P id="grid-info">
+      CryptoPedia è un sito creato da due studenti di Ingegneria Informatica e Automatica dell’Università
+      Sapienza di Roma, ed ha come scopo quello di introdurre alcune Principali CryptoValute a chi vuole addentrarsi in questo Universo.
       </P>
     </div>
     <div class="col-lg-4 col-md-6">
-      <h1>TESTO</h1>
-      <P>
+      <h1 id="grid-title">Introduzione alle CryptoValute</h1>
+      <P id="grid-info">
         testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
         testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
         testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
@@ -89,12 +87,13 @@
       </P>
   </div>
     <div class="col-lg-4 col-md-12">
-      <h1>TESTO</h1>
-      <P>
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
+      <h1 id="grid-title">Controversie</h1>
+      <P id="grid-info">
+      La diffusione delle criptovalute ha esposto alcuni problemi economici: uno di questi è la possibilità
+      di descrivere queste monete con il termine bolla speculativa. Questo significa che il grande aumento del
+      valore di alcune di queste monete, in primis Bitcoin, si fonderebbe non su caratteristiche economiche vere e proprie,
+      e potrebbe portare forti disagi nel futuro per chi ha investito date la assenza di forme di tutela o garanzie delle somme
+      depositate e gli smarrimenti della chiave d'accesso al sistema e volatilità elevata.
       </P>
     </div>
   </div>
