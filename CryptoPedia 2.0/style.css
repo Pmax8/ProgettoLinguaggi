@@ -82,8 +82,8 @@ p{
 }
 
 .carousel-item{
-    max-height: 800px;
-    min-height: 4vw;
+    max-height: 700px;
+    min-height: 60%;
 }
 
 #car-caption{
