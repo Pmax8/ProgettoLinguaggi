@@ -130,6 +130,10 @@ p{
 
 #cryptoLogo{
     max-width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 
 #info{
