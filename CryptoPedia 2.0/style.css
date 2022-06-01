@@ -81,6 +81,15 @@ p{
     padding-right: 0px;
 }
 
+.carousel-item{
+    max-height: 800px;
+    min-height: 4vw;
+}
+
+#car-caption{
+    background-color: rgba(0, 0, 0, 0.952);
+}
+
 #teamim{
     width: 400px;
     height: 400px;
@@ -106,8 +115,7 @@ p{
 }
 
 .row{
-    padding: 20px;
-    margin: 0;
+    margin: auto;
 }
 
 #grid-title{
@@ -139,6 +147,14 @@ p{
 #info{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.video-info{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+
 
 
 

@@ -78,15 +78,6 @@
       </P>
     </div>
     <div class="col-lg-4 col-md-6">
-      <h1 id="grid-title">Introduzione alle CryptoValute</h1>
-      <P id="grid-info">
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-      </P>
-  </div>
-    <div class="col-lg-4 col-md-12">
       <h1 id="grid-title">Controversie</h1>
       <P id="grid-info">
       La diffusione delle criptovalute ha esposto alcuni problemi economici: uno di questi è la possibilità
@@ -95,6 +86,12 @@
       e potrebbe portare forti disagi nel futuro per chi ha investito date la assenza di forme di tutela o garanzie delle somme
       depositate e gli smarrimenti della chiave d'accesso al sistema e volatilità elevata.
       </P>
+    </div>
+    <div class="col-lg-4 col-md-12">
+      <h1 id="grid-title">Cosa sono le Blockchain?</h1>
+      <video class="video-info" width="100%" height="240" controls>
+        <source src="Crypto/vid/blockchainintro.mp4" type="video/mp4">
+      </video>
     </div>
   </div>
   <!--GRID-END-->
