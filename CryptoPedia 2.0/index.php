@@ -89,9 +89,13 @@
     </div>
     <div class="col-lg-4 col-md-12">
       <h1 id="grid-title">Cosa sono le Blockchain?</h1>
-      <video class="video-info" width="100%" height="240" controls>
-        <source src="Crypto/vid/blockchainintro.mp4" type="video/mp4">
-      </video>
+        <section>
+          <div class="container">
+            <div class="embed-responsive">
+              <iframe src="Crypto/vid/blockchainintro.mp4" width="100%" height="240" scrolling="no" frameborder="0"></iframe>
+            </div>
+          </div>
+        </section>
     </div>
   </div>
   <!--GRID-END-->
