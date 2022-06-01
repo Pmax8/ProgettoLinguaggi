@@ -62,7 +62,7 @@
 <!--NAVBAR-END-->
 
 <div class="container">
-  <img src="Im/RippleLogo.png" id="pageimg">
+  <img src="Im/RippleLogo.png" id="cryptoLogo">
 </div>
 <div class="container-md" id="main-div">
 
@@ -78,8 +78,8 @@
     
     <div class="row featurette">
       <div class="col-md-7" data-sr="enter left over 1s, wait 0.3s, move 24px, reset">
-        <h2 class="featurette-heading">Creatore</h2>
-          <p class="lead">testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo </p>
+        <h2 id="info-title" class="featurette-heading">Creatore</h2>
+          <p id="info" class="lead">testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo </p>
       </div>
       <div class="col-md-5">
         <img class="featurette-image img-fluid mx-auto" src="Im/Ripple.png" alt="Generic placeholder image">
@@ -92,8 +92,8 @@
     
   <div class="row featurette">
     <div class="col-md-7 order-md-2" data-sr="enter right over 1s, wait 0.3s, move 24px, reset" style="bottom: 40px;">
-      <h2>roba</h2>
-      <p class="lead">roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba"</p>
+      <h2 id="info-title">roba</h2>
+      <p id="info" class="lead">roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba"</p>
     </div>
     <div class="col-md-5 order-md-1">
       <img class="featurette-image img-fluid mx-auto" src="Im/RipplePredictions.jpg" alt="Generic placeholder image">
@@ -103,8 +103,8 @@
   <hr class="featurette-divider">
 
   <div class="col-lg-4 col-md-6">
-    <h1>TESTO</h1>
-    <P>
+    <h1 id="grid-title">TESTO</h1>
+    <P id="grid-info">
         testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
         testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
         testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
@@ -112,8 +112,8 @@
     </P>
   </div>
   <div class="col-lg-4 col-md-6">
-    <h1>TESTO</h1>
-    <P>
+    <h1 id="grid-title">TESTO</h1>
+    <P id="grid-info">
       testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
       testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
       testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
@@ -121,17 +121,11 @@
     </P>
   </div>
   <div class="col-lg-4 col-md-12">
-    <h1>TESTO</h1>
-    <P>
-      testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-      testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-      testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-      testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-    </P>
+    <h2 id="grid-link">Controlla l'Andamento in Tempo Reale</h2>
   </div>
   </div>
   <!--GRID-END-->
-  
+  </div>
   <!--FOOTER-->
 	<footer class="footer">
 		<div class="container">
@@ -142,7 +136,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-</div>
 </body>
 </html>
 

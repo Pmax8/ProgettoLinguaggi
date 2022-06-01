@@ -62,7 +62,7 @@
 <!--NAVBAR-END-->
 
 <div class="container" id="cryptoLogo">
-  <img src="Im/BitcoinLogo.png" id="pageimg">
+  <img src="Im/BitcoinLogo.png" id="cryptoLogo">
 </div>
 <div class="container-md" id="main-div">
 
@@ -148,4 +148,3 @@
 
 </body>
 </html>
-

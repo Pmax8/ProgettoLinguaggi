@@ -62,7 +62,7 @@
 <!--NAVBAR-END-->
 
 <div class="container">
-  <img src="Im/CardanoLogo.png" id="pageimg">
+  <img src="Im/CardanoLogo.png" id="cryptoLogo">
 </div>
 <div class="container-md" id="main-div">
 
@@ -78,8 +78,13 @@
     
     <div class="row featurette">
       <div class="col-md-7" data-sr="enter left over 1s, wait 0.3s, move 24px, reset">
-        <h2 class="featurette-heading">Creatore</h2>
-          <p class="lead">testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo </p>
+        <h2 id="info-title" class="featurette-heading">Che cos'è?</h2>
+          <p id="info" class="lead">
+          Cardano è una piattaforma blockchain proof-of-stake: la prima ad essere fondata sulla ricerca
+          peer-reviewed e sviluppata attraverso metodi basati sull'evidenza. Combina tecnologie all'avanguardia
+          per fornire sicurezza e sostenibilità senza precedenti ad applicazioni, sistemi e società decentralizzate.<br>
+          "Cardano esiste per ridistribuire il potere dalle strutture non responsabili ai margini agli individui ed essere una forza abilitante per cambiamenti e progressi positivi."
+            </p>
       </div>
       <div class="col-md-5">
         <img class="featurette-image img-fluid mx-auto" src="Im/Cardano.jpg" alt="Generic placeholder image">
@@ -92,8 +97,12 @@
     
   <div class="row featurette">
     <div class="col-md-7 order-md-2" data-sr="enter right over 1s, wait 0.3s, move 24px, reset" style="bottom: 40px;">
-      <h2>roba</h2>
-      <p class="lead">roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba"</p>
+      <h2 id="info-title">Come Nasce</h2>
+      <p id="info" class="lead">
+      Cardano nasce come criptovaluta a modo suo rivoluzionaria, poiché creata da scienziati. nasce per unire in un unico sistema il meglio dei Bitcoin (deposito di valore) e degli Ethereum (contratti smart).
+      Cardano è però il nome della piattaforma, mentre il nome per la criptovaluta in se è ADA. <br>
+      La scelta del nome Cardano è probabilmente un omaggio allo studioso italiano Girolamo Cardano (1501 – 1576), scienziato a tuttotondo e, a modo suo scommettitore (in quanto appassionato di calcolo della probabilità, del cui fu praticamente il principale fondatore).
+      </p>
     </div>
     <div class="col-md-5 order-md-1">
       <img class="featurette-image img-fluid mx-auto" src="Im/CardanoPredictions.jpg" alt="Generic placeholder image">
@@ -103,35 +112,28 @@
   <hr class="featurette-divider">
 
   <div class="col-lg-4 col-md-6">
-    <h1>TESTO</h1>
-    <P>
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
+    <h1 id="grid-title">Cardano Vs Ethereum</h1>
+    <P id="grid-info">
+    Cardano è stato fondato da uno dei padri di Ethereum; un Charles Hoskinson appena fuoriuscito dalla su vecchia creatura poiché la sua “visione” non era più quella propria di Ethereum.
+    Cardano, proprio come Ethereum, a differenza degli altri sistemi fondati le maggiori criptovalute, presenta un meccanismo per la creazione di smart contracts.
     </P>
   </div>
   <div class="col-lg-4 col-md-6">
-    <h1>TESTO</h1>
-    <P>
-      testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-      testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-      testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-      testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
+    <h1 id="grid-title">Figlia di Più Organizzazioni</h1>
+    <P id="grid-info">
+    Tre grandi organizzazioni supervisionano lo sviluppo del progetto e del suo ecosistema: Input Output Hong Kong (IOHK), Emurgo e la Fondazione Cardano. <br>
+    -	IOHK è una società di scienza e ingegneria che ha come scopo principale quello di affrontare il lato accademico e di ricerca.<br>
+    -	La Cardano Foundation, un’entità senza scopo di lucro, supervisiona lo sviluppo e la crescita dell’ecosistema e garantisce la responsabilità degli stakeholder. <br>
+    -	Emurgo, un’incubator con sede in Giappone, è un’impresa a scopo di lucro che sta promuovendo l’adozione di Cardano e del suo ecosistema attraverso iniziative commerciali.
+ 
     </P>
   </div>
   <div class="col-lg-4 col-md-12">
-    <h1>TESTO</h1>
-    <P>
-      testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-      testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-      testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-      testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-    </P>
+    <h2 id="grid-link">Controlla l'Andamento in Tempo Reale</h2>
   </div>
   </div>
   <!--GRID-END-->
-  
+  </div>
   <!--FOOTER-->
 	<footer class="footer">
 		<div class="container">
@@ -142,7 +144,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-</div>
 </body>
 </html>
 
