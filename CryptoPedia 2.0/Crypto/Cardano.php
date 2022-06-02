@@ -129,7 +129,7 @@
     </P>
   </div>
   <div class="col-lg-4 col-md-12">
-    <a href="https://coinmarketcap.com/it/currencies/cardano/">
+  <a href="https://coinmarketcap.com/it/currencies/cardano/" target="blank">
     <h2 id="grid-link">Controlla l'Andamento in Tempo Reale</h2>
     </a>
   </div>
@@ -148,3 +148,4 @@
     <script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
+

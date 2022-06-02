@@ -127,7 +127,7 @@
     </P>
   </div>
   <div class="col-lg-4 col-md-12">
-    <a href="https://coinmarketcap.com/it/currencies/bnb/">
+  <a href="https://coinmarketcap.com/it/currencies/bnb/" target="blank">
     <h2 id="grid-link">Controlla l'Andamento in Tempo Reale</h2>
     </a>
   </div>

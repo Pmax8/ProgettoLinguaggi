@@ -78,8 +78,11 @@
     
     <div class="row featurette">
       <div class="col-md-7" data-sr="enter left over 1s, wait 0.3s, move 24px, reset">
-        <h2 id="info-title" class="featurette-heading">Creatore</h2>
-          <p id="info" class="lead">testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo </p>
+        <h2 id="info-title" class="featurette-heading">Cos'è?</h2>
+          <p id="info" class="lead">
+          USD Coin è uno stable coin, ovvero una criptovaluta che ha lo stesso valore di una valuta classica, in questo caso il Dollaro USA.
+          Ad oggi è inoltre lo stable coin gestito direttamente dall’exchange Coinbase e Coinbase PRO, uno dei più importanti exchange al mondo.
+          </p>
       </div>
       <div class="col-md-5">
         <img class="featurette-image img-fluid mx-auto" src="Im/USDC.jpg" alt="Generic placeholder image">
@@ -92,8 +95,12 @@
     
   <div class="row featurette">
     <div class="col-md-7 order-md-2" data-sr="enter right over 1s, wait 0.3s, move 24px, reset" style="bottom: 40px;">
-      <h2 id="info-title">roba</h2>
-      <p id="info" class="lead">roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba"</p>
+      <h2 id="info-title">A Cosa Serve?</h2>
+      <p id="info" class="lead">
+      Pertanto il suo primo uso è quello di fare da controparte nelle negoziazioni che avvengono all’interno dei principali exchange.
+      Tuttavia i progetti, soprattutto di Coinbase sono molto più ampi. Punta ad utilizzarla come mezzo di pagamento, offrendo wallet gratuiti e soprattutto la possibilità
+      a tutti di scambiarsi una cripto dal valore stabile espresso in dollari senza le lungaggini e i costi che sono invece collegati al banking classico.
+      </p>
     </div>
     <div class="col-md-5 order-md-1">
       <img class="featurette-image img-fluid mx-auto" src="Im/USDCPredictions.png" alt="Generic placeholder image">
@@ -103,25 +110,26 @@
   <hr class="featurette-divider">
 
   <div class="col-lg-4 col-md-6">
-    <h1 id="grid-title">TESTO</h1>
+    <h1 id="grid-title">Dollaro Programmabile</h1>
     <P id="grid-info">
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
+    L'essere programmabile apre un nuovo mondo di applicazioni e attività: gli sviluppatori possono creare conti
+    per custodire denaro con una sola riga di codice, i prestiti sono più veloci, economici e chiari, i pagamenti (inclusi gli stipendi)
+    sono più rapidi e convenienti e inoltre consente il crowdfunding globale e donazioni in beneficenza trasparenti e stabili. 
     </P>
   </div>
   <div class="col-lg-4 col-md-6">
-    <h1 id="grid-title">TESTO</h1>
+    <h1 id="grid-title">Rischi?</h1>
     <P id="grid-info">
-      testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-      testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-      testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-      testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
+    Il rischio è che quanto affermato da Coinbase sia falso. Ma obiettivamente,
+    tenendo conto dell’ottima reputazione di cui gode questa società, la cosa sembrerebbe essere piuttosto remota.
+    Inoltre i beni che sono immobilizzati a garanzia del valore di USDC sono verificati periodicamente da società terze, che ne confermano la consistenza.
+    Siamo pertanto davanti a qualcosa di estremamente solido, almeno per il momento.
     </P>
   </div>
   <div class="col-lg-4 col-md-12">
+  <a href="https://coinmarketcap.com/it/currencies/usd-coin/" target="blank">
     <h2 id="grid-link">Controlla l'Andamento in Tempo Reale</h2>
+  </a>
   </div>
   </div>
   <!--GRID-END-->

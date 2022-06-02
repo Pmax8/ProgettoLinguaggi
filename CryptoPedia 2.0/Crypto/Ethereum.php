@@ -78,8 +78,13 @@
     
     <div class="row featurette">
       <div class="col-md-7" data-sr="enter left over 1s, wait 0.3s, move 24px, reset">
-        <h2 id="info-title" class="featurette-heading">Creatore</h2>
-          <p id="info" class="lead">testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo </p>
+        <h2 id="info-title" class="featurette-heading">Cos'è?</h2>
+          <p id="info" class="lead">
+          Dopo la nascita di Bitcoin, sono state numerose le criptovalute create con lo scopo di raggiungere gli stessi successi.
+          Alcune sono state un fallimento, altre sono riuscite a ritagliarsi il loro spazio all’interno dell’economia mondiale.
+          Tra queste, non si può non citare Ethereum che, grazie ad una nuova blockchain, sta avendo un successo non indifferente.
+          Il valore della moneta, denominata Ether, è in continua crescita e ha già raggiunto traguardi importanti.
+          </p>
       </div>
       <div class="col-md-5">
         <img class="featurette-image img-fluid mx-auto" src="Im/Ethereum.png" alt="Generic placeholder image">
@@ -92,8 +97,13 @@
     
   <div class="row featurette">
     <div class="col-md-7 order-md-2" data-sr="enter right over 1s, wait 0.3s, move 24px, reset" style="bottom: 40px;">
-      <h2 id="info-title">roba</h2>
-      <p id="info" class="lead">roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba"</p>
+      <h2 id="info-title">Come è nata</h2>
+      <p id="info" class="lead">
+      Ethereum viene attualmente considerata la principale concorrente del Bitcoin. La sua storia inizia nel 2015 e alla base della sua invenzione
+      ci sono il genio e l’intuizione di Vitalik Buterin. Questo giovane programmatore abbandonò gli studi universitari per dedicarsi allo sviluppo della criptovaluta.
+      Ethereum, esattamente come il bitcoin, è una criptovaluta che non prevede il controllo da parte di autorità bancarie o istituzionali. Tutti i dati della blockchain
+      sono pubblici. Ogni volta che si avvia un programma, nessuno ha la possibilità né di modificarlo, né di fermarlo.
+      </p>
     </div>
     <div class="col-md-5 order-md-1">
       <img class="featurette-image img-fluid mx-auto" src="Im/EthereumPredictions.jpeg" alt="Generic placeholder image">
@@ -103,25 +113,27 @@
   <hr class="featurette-divider">
 
   <div class="col-lg-4 col-md-6">
-    <h1 id="grid-title">TESTO</h1>
+    <h1 id="grid-title">Caratteristiche</h1>
     <P id="grid-info">
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
+      La principale caratteristica che identifica Ethereum è la possibilità di creare e diffondere smart contract all’interno della rete.
+      Questi contratti intelligenti consentono di scambiare denaro, titoli azionari o altri valori in maniera assolutamente trasparente,
+      senza dover richiedere l’intervento da parte di intermediari esterni.
     </P>
   </div>
   <div class="col-lg-4 col-md-6">
-    <h1 id="grid-title">TESTO</h1>
+    <h1 id="grid-title">Storia delle quotazioni</h1>
     <P id="grid-info">
-      testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-      testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-      testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-      testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
+    Il prezzo iniziale di un singolo Ether è stato di circa un euro. Per i primi della sua esistenza,
+    a causa dello scarso utilizzo e della bassa notorietà, il valore è rimasto quasi sempre costante. Il primo picco si può rilevare
+    il 12 giugno 2017, dove Ethereum arrivò ad essere quotato ben 356 euro! In soli tre mesi il valore è cresciuto di 7 volte. Nel periodo successivo,
+    a causa dell’alta volatilità che caratterizza tutte le criptovalute, il valore è stato altalenante. Nel mese di novembre, la quotazione ha ricominciato
+    a salire in maniera costante, arrivando ad un nuovo record di oltre 440 euro.
     </P>
   </div>
   <div class="col-lg-4 col-md-12">
-   <h2 id="grid-link">Controlla l'Andamento in Tempo Reale</h2>
+  <a href="https://coinmarketcap.com/it/currencies/ethereum/" target="blank">
+    <h2 id="grid-link">Controlla l'Andamento in Tempo Reale</h2>
+    </a>
   </div>
   </div>
   <!--GRID-END-->

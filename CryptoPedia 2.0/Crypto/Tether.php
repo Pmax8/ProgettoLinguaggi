@@ -78,8 +78,13 @@
     
     <div class="row featurette">
       <div class="col-md-7" data-sr="enter left over 1s, wait 0.3s, move 24px, reset">
-        <h2 id="info-title" class="featurette-heading">Creatore</h2>
-          <p id="info" class="lead">testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo </p>
+        <h2 id="info-title" class="featurette-heading">Cos'è?</h2>
+          <p id="info" class="lead">
+          Lanciata nel 2014, Tether è una piattaforma abilitata alla blockchain progettata per facilitare l'uso di valute legali in modo digitale.
+          Tether lavora per sconvolgere il sistema finanziario convenzionale attraverso un approccio più moderno al denaro. Tether ha fatto progressi
+          offrendo ai clienti la possibilità di effettuare transazioni con le valute tradizionali attraverso la blockchain, senza la volatilità e la complessità
+          intrinseche tipicamente associate a una valuta digitale.
+          </p>
       </div>
       <div class="col-md-5">
         <img class="featurette-image img-fluid mx-auto" src="Im/Tether.jpg" alt="Generic placeholder image">
@@ -92,8 +97,13 @@
     
   <div class="row featurette">
     <div class="col-md-7 order-md-2" data-sr="enter right over 1s, wait 0.3s, move 24px, reset" style="bottom: 40px;">
-      <h2 id="info-title">roba</h2>
-      <p id="info" class="lead">roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba roba"</p>
+      <h2 id="info-title">Prezzo e Quotazione</h2>
+      <p id="info" class="lead">li stablecoin hanno un prezzo che è ancorato al prezzo di un’altra valuta, merce o criptoasset, in modo che la sua volatilità rimanga bassa.
+      In questo caso, il prezzo di Tether è ancorato al prezzo del dollaro USA, quindi il suo valore fluttua poco o niente.
+      È stato creato per mantenere un rapporto di valore 1:1 con l’USD, in modo che il suo prezzo sarà sempre molto vicino a 1,00 USD,
+      rendendolo attraente per i commercianti che cercano di investire in attività attraverso un token e non la valuta fiat.
+      Questa è una delle principali differenze tra una stablecoin e il resto delle criptovalute il cui prezzo è variabile e si basa su domanda e offerta.
+      </p>
     </div>
     <div class="col-md-5 order-md-1">
       <img class="featurette-image img-fluid mx-auto" src="Im/TetherPredictions.jpg" alt="Generic placeholder image">
@@ -103,25 +113,24 @@
   <hr class="featurette-divider">
 
   <div class="col-lg-4 col-md-6">
-    <h1 id="grid-title">TESTO</h1>
+    <h1 id="grid-title">Pericolo Latente</h1>
     <P id="grid-info">
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-        testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
+    Tether è la terza criptovaluta più grande del pianeta, dietro solo a ethereum e bitcoin per capitalizzazione di mercato ed è,
+    ad oggi, la valuta ponte per eccellenza. L'USDT copia il dollaro, in eterna parità, quindi tutto ciò che avete in tether non perderà
+    valore rispetto alla moneta FIAT. Ma ci sono più di alcuni che pensano che questa teoria si sta gradualmente sgretolando e, poiché il suo peso è così
+    importante nel mercato, molti analisti stanno già avvertendo il rischio di un crollo generale se il progetto cade.
     </P>
   </div>
   <div class="col-lg-4 col-md-6">
-    <h1 id="grid-title">TESTO</h1>
+    <h1 id="grid-title">Valuta non Anonima</h1>
     <P id="grid-info">
-      testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-      testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-      testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
-      testo testo testo testo testo testo testo testo testo testo testo testo testo testo testo 
+    Non è una moneta anonima. Il fatto di dover fare un deposito bancario per creare i token elimina la privacy e mette i tuoi dati nelle mani di un’azienda.
     </P>
   </div>
   <div class="col-lg-4 col-md-12">
+  <a href="https://coinmarketcap.com/it/currencies/tether/" target="blank">
     <h2 id="grid-link">Controlla l'Andamento in Tempo Reale</h2>
+  </a>
   </div>
   </div>
   <!--GRID-END-->
