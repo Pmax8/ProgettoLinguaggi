@@ -10,7 +10,7 @@
 
 <body>
     <!--NAVBAR-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Cryptopedia</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,13 +53,6 @@
 						echo "<li class='account'><a class='nav-link' href='../../User/Logout/index.php'>Log out</a></li>";
 			 		}
 			  		?>
-  
-			  		<?php
-			  		if(isset($_SESSION['name'])){
-						$name=$_SESSION['name'];
-						echo "WELCOME $name";
-			  		}
-			  		?>
 				</li>
 		    </ul>
           </div>
@@ -67,38 +60,44 @@
       </nav>
   <!--NAVBAR-END-->
 
+<div class="container-md" id="main-div" style="background-color:rgb(22, 22, 22); padding-top: 30px;">
+
 	<!-- HEADER -->
 	<section id="header">
 		<div class="container ">
 			<div class="row">
 
 				<div class="col-xs-12 mb-4 heading-title text-center">
-					<h1>OUR TEAM</h1>
-					<h5>Sito creato per il progetto di Linguaggi e Tecnologie per il Web<br></h5>
+					<h1 id="grid-title" style="font-size:120px;">OUR TEAM</h1>
+					<h5 id="grid-info">Sito creato per il progetto di Linguaggi e Tecnologie per il Web<br></h5>
 				</div>
 
-				<div class="row col-xs-12">
+				<hr style="color:white; size:4px;">
+
+				<div class="row col-xs-12" style="padding-top:20%">
 					<div class="col-lg-6 mb-4">
 						<div class="row">
 							<div class="col-md-12 text-center" > <!--style="left: 350px"-->
-							  <img src="images/Matt.JPG" alt="wrapkit" class="img-fluid rounded-circle"/> <!-- foto da cambiare-->
+							  <img id="teamim" src="images/Matt.JPG" alt="wrapkit" class="img-fluid rounded-circle"/> <!-- foto da cambiare-->
 							</div>
 							<div class="col-md-12 text-center">
 							  <div class="pt-2">
-								<h2 class="mt-4 font-weight-medium mb-0">Matteo Gargaro</h2>
-								<p></p>
+								<h2 id="grid-info" class="mt-4 font-weight-medium mb-0">Matteo Gargaro</h2>
+								<h3 id="grid-info" style="font-size:15px; padding-top:2%;"> Studente Ingegneria Informatica e Automatica</h3>
+ 								<p></p>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-6 mb-4">
+					<div class="col-lg-6 mb-4" style="padding-bottom: 20%;">
 						<div class="row">
 							<div class="col-md-12 text-center"><!--style="left: 500px;"-->
-							  <img src="images/Max.JPG" alt="wrapkit" class="img-fluid rounded-circle" />
+							  <img id="teamim" src="images/Max.JPG" alt="wrapkit" class="img-fluid rounded-circle" />
 							</div>
 							<div class="col-md-12 text-center">
 							  <div class="pt-2">
-								<h2 class="mt-4 font-weight-medium mb-0">Massimiliano Picone</h2>
+								<h2 id="grid-info" class="mt-4 font-weight-medium mb-0">Massimiliano Picone</h2>
+								<h3 id="grid-info" style="font-size:15px; padding-top:2%;"> Studente Ingegneria Informatica e Automatica</h3>
 							</div>
 						</div>
 					</div> 
@@ -108,6 +107,8 @@
 		</div>
 	</section>
 	<!-- HEADER ENDS -->
+
+</div>
 
 	  <!--FOOTER-->
 	  <footer class="footer">

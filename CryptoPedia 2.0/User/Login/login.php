@@ -17,7 +17,7 @@
                 $q1="select * from login where email= $1";
                 $result=pg_query_params($dbconn, $q1, array($email));
                 if (!($line=pg_fetch_array($result, null, PGSQL_ASSOC))){
-                    echo "<h1 style="text-align:center;">Sorry, you are not a registered user</h1> 
+                    echo "<h1 style='text-align:center;'>Sorry, you are not a registered user</h1> 
                             <a href=../signup/index.php>
                             Click here to register </a>";
                 } 
@@ -26,7 +26,7 @@
                     $q2="select * from login where email=$1 and password=$2"; 
                     $result=pg_query_params($dbconn, $q2, array($email, $password)); 
                     if (!($line=pg_fetch_array($result, null, PGSQL_ASSOC))){
-                        echo "<h1 style="text-align:center;"> The password is wrong </h1> 
+                        echo "<h1 style='text-align:center;'> The password is wrong </h1> 
                                 <a href=index.php> Click here to retry login </a>" ;
                     } 
                     else {
@@ -37,7 +37,7 @@
                             exit;
                         }
                         else {
-				          echo "<h1 style="text-align:center;"> Welcome back, You're logged in! </h1>
+				          echo "<h1 style='text-align:center;'> Welcome back, You're logged in! </h1>
                                     <a href=../../index.php> Click here</a> 
                                     to go to Home!"; 
                         

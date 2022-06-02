@@ -68,7 +68,7 @@
         <span>
             <div class="illustration"><div class="icon ion-ios-paperplane-outline"></div></div>
             <div class="form-group">
-				<h2 style="text-align:center;">Please give a feedback to us if you feel satisfied about our web site!</h2>
+				<h2 id="grid-info" style="text-align:center;">Dacci il tuo feedback!</h2>
 				<br><br>
 					
 				<select class="form-control" name="rate" id="rate" style="width:50%; margin-left: auto; margin-right: auto;">

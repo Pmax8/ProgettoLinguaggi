@@ -78,13 +78,13 @@
       </P>
     </div>
     <div class="col-lg-4 col-md-6">
-      <h1 id="grid-title">Controversie</h1>
+      <h1 id="grid-title">Intoduzione alle Crypto</h1>
       <P id="grid-info">
-      La diffusione delle criptovalute ha esposto alcuni problemi economici: uno di questi è la possibilità
-      di descrivere queste monete con il termine bolla speculativa. Questo significa che il grande aumento del
-      valore di alcune di queste monete, in primis Bitcoin, si fonderebbe non su caratteristiche economiche vere e proprie,
-      e potrebbe portare forti disagi nel futuro per chi ha investito date la assenza di forme di tutela o garanzie delle somme
-      depositate e gli smarrimenti della chiave d'accesso al sistema e volatilità elevata.
+      Cosa sono le criptovalute? Dal nome si evince già qualcosa: le criptovalute (Cryptocurrency in inglese)
+      sono delle monete digitali utilizzate per fare acquisti; vengono anche chiamate criptomonete. Queste criptovalute
+      godono della tecnologia Blockchain che garantisce un sistema di protezione inattaccabile verso queste monete digitali:
+      per questo vengono chiamate criptovalute. Inoltre i pagamenti effettuati con le criptovalute sono difficilmente rintracciabili,
+      garantendo l’anonimato anche a persone maleintenzionate.
       </P>
     </div>
     <div class="col-lg-4 col-md-12">
@@ -92,7 +92,7 @@
         <section>
           <div class="container">
             <div class="embed-responsive">
-              <iframe src="Crypto/vid/blockchainintro.mp4" width="100%" height="240" scrolling="no" frameborder="0"></iframe>
+              <iframe preload="none" src="Crypto/vid/blockchainintro.mp4" width="100%" height="240" scrolling="no" frameborder="0"></iframe>
             </div>
           </div>
         </section>

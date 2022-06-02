@@ -20,7 +20,7 @@
             }
         ?>
 
-        <div class="alert alert-info alert-dismissible" role="alert">
+        <div class="alert alert-info alert-dismissible" role="alert" style="background-color:black;">
             <button type="button" class="close" data-bs-dismiss="alert" aria-label="Close"><div aria-hidden="true">&times;</div></button>
             <?php 
                 echo "<h1 style='text-align:center;'><strong> Feedback sent! </strong></h1>"; 

@@ -17,7 +17,7 @@
                 $result = pg_query("select round(avg(fb), 2) as avg from feedback");
                 $row = pg_fetch_assoc($result);
                 $average = $row['avg'];
-                echo $average . " / 5";
+                echo "<h1 style='color:white;text-align:center;'>$average  / 5</h1>";
                 $su100 = $average*100/5;
                 $count = pg_query("select count(fb) as cnt from feedback");
                 $row2 = pg_fetch_assoc($count);
@@ -27,16 +27,18 @@
 
         <div class="row">
             <div class="side">
-                <div>Average:</div>
+                <div class="container">
+                    <h2 id="grid-info">Average:</h2>
+                </div>
             </div>
             <div class="middle">
                 <div class="progress">
                     <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="<?php echo $su100; ?>" aria-valuemin="0" aria-valuemax="100" style="width:<?php echo $su100; ?>%">
                     </div>
                 </div>
-            </div>   
+            </div>
             <div class="side right">
-                <div> <?php echo $n; ?> votes</div>
+                <div style="color:white;text-align:center;"> <?php echo $n; ?> votes</div>
             </div>
         </div>
 
