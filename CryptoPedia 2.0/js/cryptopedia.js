@@ -1,4 +1,4 @@
-/* Nascondi/Mostra Password in login */
+
 function validaLogin() {
   if (document.login.email.value=="") {
       alert("Inserire l’email");
